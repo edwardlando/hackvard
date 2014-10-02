@@ -11,6 +11,14 @@ body{
     font-family: raleway;
 }
 
+input[type=submit] {
+  -webkit-appearance: none;
+}
+
+
+p{
+    margin:0;
+}
 .whiteTop{
     float: left;
     max-height: 33%;
@@ -49,13 +57,7 @@ margin: 0 auto;
 .whiteBottom{
     text-align: center;
 }
-.container{
 
-
-display: inline-block;
-margin-top: 60px;
-
-}
 
 .hackvard{
     font-size: 50px;
@@ -72,9 +74,14 @@ margin-top: 60px;
     border-radius: 3px;
     border: none;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
+
     height: 35px;
+    padding:7px;
+    width: 250px;
     margin: 0 15px;
+    margin-bottom: 2px;
+    outline: none;
 }
 
 
@@ -96,6 +103,17 @@ margin-top: 60px;
 }
 
 
+
+ @media screen and (min-width: 480px){
+.container{
+
+
+display: inline-block;
+margin-top: 60px;
+
+}
+}
+
 /*@media (max-width: 480px) {*/
  @media screen and (max-width: 480px){
 .logo{
@@ -111,13 +129,13 @@ margin-top: 60px;
 
 .congratulation{
     font-size: 27px;
-    margin-top: 10px;
+    margin-top: 35px;
 }
 .container{
 
 
 display: inline-block;
-margin-top: 90px;
+margin-top: 235px;
 
 }
 
@@ -139,4 +157,195 @@ margin-top: 90px;
 
 .rejection{
     margin-top: 100px;
+}
+
+
+//////////////////////////
+
+
+
+.tryagain:hover{
+    background-color: white;
+    color: black;
+
+}
+.congrats{
+        width: 440px;
+        margin-top: 30px;
+        border: 2px solid white;
+        text-align: left;
+        padding: 8px;
+        border-radius: 2px;
+        display: inline-block;
+        font-size: 16px;
+
+}
+
+.blackTop{
+    float: left;
+    max-height: 33%;
+    background-color: black;
+    color:white;
+    width: 100%;
+}
+
+.tagline{
+    text-align: center;
+    margin: 45px 0px;
+}
+
+
+.firstLine{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.red{
+    color:rgb(157, 7, 12);
+}
+
+.logo{
+
+    background: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: 120px;
+width: 120px;
+height: 138px;
+margin: 0 auto;
+
+}
+
+
+.whiteBottom{
+    text-align: center;
+}
+
+
+.hackvard{
+    font-size: 60px;
+    margin: 15px 0;
+}
+
+.text{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.input{
+    background-color: rgb(230, 231, 233);
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    text-align: left;
+
+    height: 35px;
+    padding:7px;
+    width: 250px;
+    margin: 0 15px;
+    margin-bottom: 2px;
+    outline: none;
+}
+
+
+.signup{
+    background-color: rgb(157, 7, 12);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 50px;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+
+
+}
+
+
+
+
+/*@media (max-width: 480px) {*/
+ @media screen and (max-width: 480px){
+
+.congrats{
+    width:90%
+}
+
+.signup{
+    font-size: 15px;
+}
+
+
+
+
+.blackTop{
+    float: left;
+    max-height: 280px;
+    background-color: black;
+    color:white;
+    width: 100%;
+}
+}
+
+.thankYou{
+
+
+    width:100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    overflow: auto;
+}
+
+.thanks{
+    font-size: 34px;
+    font-weight: 500;
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+
+.logo2{
+
+    background: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: 120px;
+width: 120px;
+height: 138px;
+margin: 0 auto;
+
+}
+
+.hide{
+    display: none;
+}
+
+.sm{
+border: 2px solid white;
+display: inline-block;
+padding: 10px 15px;
+margin: 10px 30px;
+border-radius: 3px;
+font-size: 24px;
+color: white;
+cursor: pointer;
+}
+
+.sm:hover{
+    background-color: white;
+    color: black;
+}
+
+
+.tryagain{
+    border: 2px solid white;
+    background-color: black;
+display: inline-block;
+padding: 10px 15px;
+margin: 10px 30px;
+border-radius: 3px;
+font-size: 24px;
+color: white;
+cursor: pointer;
 }
