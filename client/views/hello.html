@@ -73,38 +73,27 @@
         <h3>In the meantime, spread the knowledge. Hackvard is funny, but it's not a joke.</h3> -->
 
         <!-- <h1>Sorry. You've been rejected.</h1> -->
-{{#if admission}}
+
 <div class="thankYou animated fadeInDown">
 
-        <h1 class="congratulation">CONGRATULATIONS! YOU'VE BEEN ADMITTED</h1>
+        <h1 class="congratulation">Congratulations. You've been waitlisted by Hackvard!</h1>
 
-        <img class="gif" src="happy.gif">
-        <div>
+        We'll be in touch. In the meantime, say hi to us on Twitter!
 
-            <p>Share the good news. Your loved ones will be thrilled.</p>
-            <div class="sm facebook">facebook</div>
+        <a class="twitter-timeline" href="https://twitter.com/hackvard" data-widget-id="517769433998061568">Tweets by @hackvard</a>
 
+    <script type="text/javascript">
+    window.twttr = (function (d, s, id) {
+      var t, js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id; js.src= "https://platform.twitter.com/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs);
+      return window.twttr || (t = { _e: [], ready: function (f) { t._e.push(f) } });
+    }(document, "script", "twitter-wjs"));
+    </script>
 
-
-            <a href="https://twitter.com/share?text=I%27ve%20been%20waitlisted%20by%20Hackvard!!!&via=hackvard" class="twitter-share-button" target="_blank">
-                <div class="sm twitter">twitter</div>
-            </a>
-        </div>
 </div>
-        {{else}}
-        <div class="thankYou animated fadeInDown">
-        <h1 class="rejection">Sorry, You've been rejected</h1>
-        <img class="gif" src="sad.gif">
-        <div>
-        <button class="tryagain">ONE MORE TIME</button></div>
-         </div>
-        {{/if}}
-
-
-
-
-
-    {{/if}}
-
+         {{/if}}
 
 </template>
+
