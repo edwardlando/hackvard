@@ -1,0 +1,141 @@
+/*/* CSS declarations go here */
+html{
+    height: 100%;
+}
+
+body{
+    height: 100%;
+    margin:0 ;
+    padding: 0;
+    margin-top: -21px;
+    font-family: raleway;
+}
+
+.blackTop{
+    float: left;
+    max-height: 33%;
+    background-color: black;
+    color:white;
+    width: 100%;
+}
+
+.tagline{
+    text-align: center;
+    margin: 45px 0px;
+}
+
+
+.firstLine{
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.red{
+    color:rgb(157, 7, 12);
+}
+
+.logo{
+
+    background: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: 120px;
+width: 120px;
+height: 138px;
+margin: 0 auto;
+
+}
+
+
+.whiteBottom{
+    text-align: center;
+}
+.container{
+
+
+display: inline-block;
+margin-top: 60px;
+
+}
+
+.hackvard{
+    font-size: 50px;
+    margin: 15px 0;
+}
+
+.text{
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.input{
+    background-color: rgb(230, 231, 233);
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    height: 35px;
+    margin: 0 15px;
+}
+
+
+.signup{
+    background-color: rgb(157, 7, 12);
+    border: none;
+    border-radius: 3px;
+    color: white;
+    padding: 15px 50px;
+    font-size: 20px;
+    margin-top: 15px;
+
+
+}
+
+.congratulation{
+    margin-top: 100px;
+}
+
+
+/*@media (max-width: 480px) {*/
+ @media screen and (max-width: 480px){
+.logo{
+    margin: 0 auto;
+    margin-top: -25px;
+}
+
+
+
+.gif{
+    width: 90%;
+}
+
+.congratulation{
+    font-size: 27px;
+    margin-top: 10px;
+}
+.container{
+
+
+display: inline-block;
+margin-top: 90px;
+
+}
+
+.blackTop{
+    float: left;
+    max-height: 280px;
+    background-color: black;
+    color:white;
+    width: 100%;
+}
+
+
+}
+
+
+
+
+
+
+.rejection{
+    margin-top: 100px;
+}

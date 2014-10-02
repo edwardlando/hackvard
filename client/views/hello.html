@@ -1,0 +1,106 @@
+<template name="hello">
+
+
+   {{#if getIn}}
+
+
+    <div class="blackTop">
+        <div class="tagline">
+
+            <span class="firstLine">YOU DON'T GO TO HARVARD FOR THE MATERIAL.
+        <br>
+        YOU GO FOR THE</span><span class="firstLine red"> PEOPLE.</span>
+        </div>
+        <div class="logo"></div>
+    </div>
+    <div class="whiteBottom">
+
+        <div class="container">
+            <div class="red hackvard">HACKVARD</div>
+
+            <div class="text">
+                <span><span class="red">Learning to code</span> no longer means struggling alone.
+                <br>Join the first coding community based on <span class="red">in-person study groups.</span></span>
+            </div>
+
+
+            <div class="form">
+
+                <form id="register-form" action="action">
+                    <div>
+                        <input type="text" id="account-name" class="input" placeholder="name" />
+                        <input type="email" id="account-email" class="input" placeholder="email" />
+                        <input type="text" id="account-occupation" class="input" placeholder="occupation" />
+                        <div>
+                        <input type="submit" id="create-account" class="signup" value="ADD ME TO THE WAITLIST" /></div>
+                    </div>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+{{else}}
+
+
+
+
+<!--         <div class="thanks">CONGRATS! <br/>
+            YOU HAVE BEEN WAITLISTED</div>
+        <div class="logo2"></div>
+        <div class="congrats">
+
+
+
+        <p>Every year, billions of students from around the world apply to Hackvard. </p>
+
+        <p>You are one of those. </p>
+
+        <p>We have been very impressed with your application as with all others. So we decided to put everyone on the waitlist.</p>
+
+        <p>Sincerely, academically yours, </p>
+
+        <p>The Hackvard Admissions Committee</p>
+
+
+        <i style="font-size:12px;">For any further inquiries, please contact admissions@hackvard.com.</i>
+    </div>
+
+        <h3>In the meantime, spread the knowledge. Hackvard is funny, but it's not a joke.</h3> -->
+
+        <!-- <h1>Sorry. You've been rejected.</h1> -->
+{{#if admission}}
+<div class="thankYou animated fadeInDown">
+
+        <h1 class="congratulation">CONGRATULATIONS! YOU'VE BEEN ADMITTED</h1>
+
+        <img class="gif" src="happy.gif">
+        <div>
+
+            <p>Share the good news. Your loved ones will be thrilled.</p>
+            <div class="sm facebook">facebook</div>
+
+
+
+            <a href="https://twitter.com/share?text=I%27ve%20been%20waitlisted%20by%20Hackvard!!!&via=hackvard" class="twitter-share-button" target="_blank">
+                <div class="sm twitter">twitter</div>
+            </a>
+        </div>
+</div>
+        {{else}}
+        <div class="thankYou animated fadeInDown">
+        <h1 class="rejection">Sorry, You've been rejected</h1>
+        <img class="gif" src="sad.gif">
+        <div>
+        <button class="tryagain">ONE MORE TIME</button></div>
+         </div>
+        {{/if}}
+
+
+
+
+
+    {{/if}}
+
+
+</template>

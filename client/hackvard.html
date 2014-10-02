@@ -1,47 +1,48 @@
+
 <head>
-  <title>hackvard</title>
+  <link rel="shortcut icon" href="logo.png">
+  <title>Hackvard</title>
+  <meta name="viewport" content="width=device-width, user-scalable=no"/>
+
+
+
+
+
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-title">
+<meta name="msapplication-TileImage" content="Hackvard72.png"/>
+<meta name="msapplication-TileColor" content="#000"/>
+<meta property="og:title"/>
+<meta property="og:url" content="http://www.hackvard.com"/>
+<meta property="og:image" content="http://www.hackvard.com/logoFace.png"/>
+<meta property="og:site_name" content="Hackvard"/>
+<meta property="og:description" content="I got into Hackvard!!!"/>
+<link rel="shortcut icon" href="Hackvard72.png">
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="Hackvard72.png"/>
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="Hackvard72.png"/>
+<link rel="apple-touch-icon-precomposed" href="Hackvard120.png">
+
+  <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'/>
+
+
 </head>
 
 <body>
+
   {{> hello}}
+
+    <div id="fb-root"></div>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55249328-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
 </body>
 
-<template name="hello">
-
-    <div class="blackTop">
-      <div class="tagline">
-
-        <span class="firstLine">YOU DON'T GO TO HARVARD FOR THE MATERIAL ANYNORE, IT'S ALL ONLINE.
-        <br>
-        YOU GO FOR THE</span><span class="firstLine red"> PEOPLE</span>
-      </div>
-      <div class="logo"></div>
-  </div>
-  <div class="whiteBottom">
-
-    <div class="container">
-    <div class="red hackvard">HACKVARD</div>
-
-    <div class="text">
-    <span>Learning online no longuer means struggling alone<br>Join the first online community based on <span class="red">in-person study group</span></span>
-    </div>
 
 
-    <div class="form">
-
-        <form id="register-form" action="action">
-          <div>
-            <input type="text" id="account-name" class="input" placeholder="NAME"/>
-            <input type="email" id="account-email" class="input" placeholder="EMAIL" />
-            <input type="text" id="account-occupation" class="input" placeholder="OCCUPATION" />
-            <br>
-            <input type="submit" id="create-account" class="signup" value="ADD ME TO THE WAITLIST" />
-          </div>
-        </form>
-      </div>
-
-</div>
-  </div>
-
-
-</template>
