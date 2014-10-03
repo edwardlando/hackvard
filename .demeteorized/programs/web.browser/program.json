@@ -1,0 +1,128 @@
+{
+  "format": "web-program-pre1",
+  "manifest": [
+    {
+      "path": "a76e74b1b50b3d1c3fbdebc80f297e5c199dc40a.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/a76e74b1b50b3d1c3fbdebc80f297e5c199dc40a.js",
+      "size": 357729,
+      "hash": "a76e74b1b50b3d1c3fbdebc80f297e5c199dc40a"
+    },
+    {
+      "path": "3e7716ba8ec2c81717a7fd1431fa5cc2daa5ccc0.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/3e7716ba8ec2c81717a7fd1431fa5cc2daa5ccc0.css?meteor_css_resource=true",
+      "size": 58547,
+      "hash": "3e7716ba8ec2c81717a7fd1431fa5cc2daa5ccc0"
+    },
+    {
+      "path": "app/Hackard120.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Hackard120.png",
+      "size": 10098,
+      "hash": "a57143ab9b36c6876c233cb8fd3b1bc41a599736"
+    },
+    {
+      "path": "app/Hackvard1024.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Hackvard1024.png",
+      "size": 104565,
+      "hash": "234805803bb36745cf87fabd1b8aa4232703c333"
+    },
+    {
+      "path": "app/Hackvard144.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Hackvard144.png",
+      "size": 11360,
+      "hash": "40a03d9f8e73b25b37a504e51e99530cf0bb7818"
+    },
+    {
+      "path": "app/Hackvard60.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Hackvard60.png",
+      "size": 4909,
+      "hash": "b92c15e14d5138ac8fe74aa008fa039e8bae8a21"
+    },
+    {
+      "path": "app/Hackvard600.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Hackvard600.png",
+      "size": 66028,
+      "hash": "0fad126f589eccd4eaab5b0f2e01500000fb0570"
+    },
+    {
+      "path": "app/Hackvard72.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/Hackvard72.png",
+      "size": 21768,
+      "hash": "0e238d25cb709dafe4e37ae931ff0cd28847053a"
+    },
+    {
+      "path": "app/facebook.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/facebook.svg",
+      "size": 915,
+      "hash": "b5fce1768bf45c4fb314754b315ec9fec8dc3fb8"
+    },
+    {
+      "path": "app/happy.gif",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/happy.gif",
+      "size": 656957,
+      "hash": "c0ca9106fa041ae978995e936de3cadacf5206d8"
+    },
+    {
+      "path": "app/logo.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/logo.png",
+      "size": 76842,
+      "hash": "8b1e89e156778c5926605eb08e9a366c692fea63"
+    },
+    {
+      "path": "app/logoFace.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/logoFace.png",
+      "size": 30304,
+      "hash": "7dbc7506a981475d8a64cc6e596759d1fef129ae"
+    },
+    {
+      "path": "app/sad.gif",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/sad.gif",
+      "size": 511477,
+      "hash": "e51f293235071d4496e71c78e8b07354a3d7be0f"
+    },
+    {
+      "path": "head.html",
+      "where": "internal",
+      "type": "head",
+      "hash": "d97a27b0598a008b81d35ae1eb1fcb521353a1c3"
+    }
+  ]
+}
