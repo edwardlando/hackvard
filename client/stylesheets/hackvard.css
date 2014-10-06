@@ -19,6 +19,12 @@ input[type=submit] {
 p{
     margin:0;
 }
+
+.contact{
+    position: absolute;
+bottom: 8px;
+font-size: 11px;
+}
 .whiteTop{
     float: left;
     max-height: 33%;
@@ -62,6 +68,8 @@ margin: 0 auto;
 .hackvard{
     font-size: 50px;
     margin: 15px 0;
+    margin-top: 35px;
+
 }
 
 .text{
@@ -221,10 +229,7 @@ margin: 0 auto;
 }
 
 
-.hackvard{
-    font-size: 60px;
-    margin: 15px 0;
-}
+
 
 .text{
     font-size: 30px;
